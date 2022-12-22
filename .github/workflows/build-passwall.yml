@@ -1,7 +1,7 @@
 name: Build PassWall
 
-on:
-  schedule:
+#on:
+ # schedule:
     - cron: 0 15 * * *
   repository_dispatch:
   workflow_dispatch:
