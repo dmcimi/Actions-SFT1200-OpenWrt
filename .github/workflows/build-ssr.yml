@@ -1,8 +1,6 @@
 name: Build SSR
 
 on:
-  schedule:
-    - cron: 0 17 * * *
   repository_dispatch:
   workflow_dispatch:
     inputs:
